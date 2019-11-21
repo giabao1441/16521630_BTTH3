@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BTTH_Tuan3"
+             x:Class="BTTH_Tuan3.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <Button Text="Thêm Loai Hoa" x:Name="cmdthemloaihoa" Clicked="Cmdthemloaihoa_Clicked"/>
+        <Button Text="Thêm Hoa" x:Name="cmdthemhoa" Clicked="Cmdthemhoa_Clicked"/>
+
+        <Button Text="Ds loại Hoa" x:Name="cmddsloaihoa" Clicked="Cmddsloaihoa_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
